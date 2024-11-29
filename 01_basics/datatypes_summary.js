@@ -28,9 +28,34 @@ let myObj = {
     age: 21,
 }
 
-const myFunction = function(){
-    console.log("Hello world");
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
+
+// console.log(typeof id);
+// http://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+// Stack(primitive) , Heap(Non-primitive)
+
+let myYoutubename = "Aftabandyoutube"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
 }
 
-console.log(typeof id);
-// http://262.ecma-international.org/5.1/#sec-11.4.3
+let userTwo = userOne
+
+userTwo.email = "Aftab@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
