@@ -1,2 +1,2 @@
-# js-youtube-hindi
+# js-basics
 A code repo for javascript series
